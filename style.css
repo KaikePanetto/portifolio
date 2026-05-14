@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.azul{
+    background-color: rgb(9, 0, 49) !important;
+    border-bottom: 1px solid white;
+}
+
+.text-branco{
+    color: white !important;
+}
+
+.text-branco:hover{
+    color: #0188ff !important;
+}
+
+.texto-branco{
+    color: white !important;
+}
+
+.navbar-toggler{
+    border: none !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+body{
+    background-color: rgb(9, 0, 49) !important;
+    color: white !important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.conteudo {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+#resSobre {
+    max-width: 500px;
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.conteudo p{
+    max-width: 500px;
+}
+
+#sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 25px;
+    text-align: center;
+}
+
+#sobre img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow: 0 0 10px #0188ff;
+}
+
+#sobre img:hover{
+    transform: scale(1.03);
+    transition: 0.6s;
+    box-shadow: 0 0 20px #0188ff;
+}
+
+.todosCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.card{
+    margin: 40px 20px;
+    color: white !important;
+    background-color: rgb(9, 0, 49) !important;
+    border: 1px solid #0188ff !important;
+}
+
+.card:hover{
+    transform: scale(1.04) !important;
+    transition: 0.7s !important;
+    box-shadow: 0 0 10px #0188ff;
+}
+
+#contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+input, textarea{
+    padding: 10px 12px;
+    width: 300px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+input:focus,textarea:focus{
+    border: 1px solid white;
+    box-shadow: 0 0 10px #0188ff;
+}
+
+footer{
+    text-align: center;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.msg-enviada {
+    width: 500px;
+    background-color: #0188ff;
+    border: 2px solid #0145ff;
+    border-radius: 10px;
+    padding: 24px 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    box-shadow: 0 0 20px #0145ff;
+}
+
+footer p a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+    font-size: 105%;
+    transition: 0.2s;
+}
+
+footer img{
+    width: 20px;
+}
+
+@media(max-width: 1000px){
+    .todosCard{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .conteudo{
+        flex-direction: column;
+    }
+}
