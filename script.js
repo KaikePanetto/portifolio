@@ -1,3 +1,6 @@
+history.scrollRestoration = 'manual';
+window.scrollTo(0, 0);
+
 function sobre(){
     let divConteudo = document.querySelector('.conteudo');
     let explicar = document.querySelector('#explicar')
