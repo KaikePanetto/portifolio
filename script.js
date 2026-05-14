@@ -35,5 +35,5 @@ function enviarWhats(event) {
     formulario.remove()
     div.className = 'msg-enviada'
     div.innerHTML = `Mensagem Enviada!`
-    contato.appendChild(div)
+    document.getElementById('contato').appendChild(div)
 }

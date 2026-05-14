@@ -11,13 +11,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
-    <title>Meu portifólio</title>
+    <meta name="description" content="Portfólio de Kaike Corrêa Panetto, estudante de Ciências da Computação pela UVV.">
+    <title>Meu portfólio</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark azul" data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand texto-branco" href="#">Kaike Corrêa Panetto</a>
+            <a class="navbar-brand text-branco" href="#">Kaike Corrêa Panetto</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,8 +26,8 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active text-branco" aria-current="page" href="#sobre">Sobre Mim</a>
-                    <a class="nav-link active text-branco" href="#projetos">Meus Projetos</a>
-                    <a class="nav-link active text-branco" href="#contato">Contato</a>
+                    <a class="nav-link text-branco" href="#projetos">Meus Projetos</a>
+                    <a class="nav-link text-branco" href="#contato">Contato</a>
                 </div>
             </div>
         </div>
@@ -37,7 +38,7 @@
         <div>
             <p id="explicar">CLIQUE PARA SABER MAIS:</p>
             <div class="conteudo">
-            <img src="img/foto-formatura.jpeg" alt="foto principal minha" onclick="sobre()">
+            <img src="img/foto-formatura.jpeg" alt="Foto de Kaike Corrêa Panetto" role="button" tabindex="0" onclick="sobre()" onkeydown="if(event.key==='Enter'||event.key===' ')sobre()">
             </div>
         </div>
     </section>
@@ -46,7 +47,7 @@
         <h2>Meus Projetos</h2>
         <div class="todosCard">
             <div class="card" style="width: 18rem;">
-                <img src="img/foto-carru.png" class="card-img-top" alt="...">
+                <img src="img/foto-carru.png" class="card-img-top" alt="Prévia do projeto Carru">
                 <div class="card-body">
                     <h5 class="card-title">Carru</h5>
                     <p class="card-text">Meu primeiro projeto verdadeiro, criado em parceria com o meu pai, dono da
@@ -57,20 +58,20 @@
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="img/conversores.png" class="card-img-top" alt="...">
+                <img src="img/conversores.png" class="card-img-top" alt="Prévia do projeto Conversores">
                 <div class="card-body">
                     <h5 class="card-title">Conversores</h5>
-                    <p class="card-text">Projeto criado com o objetivo de testar e aprimorar meus conhecimentos de JavaScrip. O projeto é um hub de diferentes conversoes que fazemos no nosso dia a dia.</p>
+                    <p class="card-text">Projeto criado com o objetivo de testar e aprimorar meus conhecimentos de JavaScript. O projeto é um hub de diferentes conversões que fazemos no nosso dia a dia.</p>
                     <a href="https://kaikepanetto.github.io/conversor/" class="btn btn-primary" target="_blank">Visitar
                         Projeto</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="img/calculadora_imc.png" class="card-img-top" alt="...">
+                <img src="img/calculadora_imc.png" class="card-img-top" alt="Prévia da Calculadora de IMC">
                 <div class="card-body">
                     <h5 class="card-title">Calculadora de IMC</h5>
                     <p class="card-text">Meu projeto criado para treinar e aprimorar minha lógica de programação utilizando o JavaScript. O projeto recebe os dados de peso e altura do usuário e informa o estado que ela se encontra, baseado em seu IMC.</p>
-                    <a href="https://kaikepanetto.github.io/carru/" class="btn btn-primary" target="_blank">Visitar
+                    <a href="https://kaikepanetto.github.io/Calculadora-IMC/" class="btn btn-primary" target="_blank">Visitar
                         Projeto</a>
                 </div>
             </div>
