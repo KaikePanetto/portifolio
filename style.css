@@ -21,6 +21,10 @@ html{
     color: #0188ff !important;
 }
 
+.navbar-brand.text-branco:hover{
+    color: white !important;
+}
+
 
 .navbar-toggler{
     border: none !important;
