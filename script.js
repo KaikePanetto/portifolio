@@ -1,5 +1,7 @@
-history.scrollRestoration = 'manual';
-window.scrollTo(0, 0);
+window.addEventListener('load', function () {
+    window.scrollTo(0, 0);
+    history.replaceState(null, null, window.location.pathname + window.location.search);
+});
 
 function sobre(){
     let divConteudo = document.querySelector('.conteudo');

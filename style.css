@@ -141,6 +141,8 @@ input, textarea{
     border-radius: 8px;
     border: none;
     outline: none;
+    background-color: white;
+    color: black;
 }
 
 input:focus,textarea:focus{
@@ -150,9 +152,10 @@ input:focus,textarea:focus{
 
 footer{
     text-align: center;
-    background-color: aliceblue;
+    background-color: #f0f8ff;
     color: rgb(0, 0, 0);
     padding: 20px;
+    color-scheme: light;
 }
 
 .msg-enviada {
